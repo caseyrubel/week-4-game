@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+<body background="assets/images/geonosis.png">
+	<div class="body">
+		<div class="titles">
+	    	<p class="title">Star Wars RPG</p>
+	    </div>
+		<div class="selectChar">
+			<h1 id="choose"></h1>
+		    <div class="boxes" id="obi">
+		    	<h1 class="boxt">Obi-Wan</h1>
+		    	<img class="playerImg" src="assets/images/obi.png" alt="Obi-Wan">
+		    	<p class="score" id="obiS"></p>
+		    </div>
+		    <div class="boxes" id="mace">
+		    	<h1 class="boxt">Mace Windu</h1>
+		    	<img class="playerImg" src="assets/images/mace.png" alt="mace">
+		    	<p class="score" id="maceS"></p>
+		    </div>
+		    <div class="boxes" id="sid">
+		    	<h1 class="boxt">Darth Sidious</h1>
+		    	<img class="playerImg" src="assets/images/palp.png" alt="Darth Sidious">
+		    	<p class="score" id="sidS"></p>
+		    </div>
+		    <div class="boxes" id="maul">
+		    	<h1 class="boxt">Darth Maul</h1>
+		    	<img class="playerImg" src="assets/images/maul.png" alt="maul">
+		    	<p class="score" id="maulS"></p>
+		    </div>
+	    </div>
+		<div id="vs">
+		    <div class="row" id="character">
+		    	<h2 class="headings">Your Character</h2>
+		    </div>
+		    <div class="row" id="enemies">
+		    	<h2 class="headings">Enemies</h2>
+		    </div>
+		    <div class="row" id="defender">
+		    	<h2 class="headings">Fight Section!</h2>
+		    	<button id="fight">Attack!</button>
+		    	<h2 class="headings">Defender</h2>
+		    </div>
+		    <div class="row" id="defender">
+		    	<h2 id="aWords" class="headings"></h2>
+		    	<h2 id="dWords" class="headings"></h2>
+		    </div>
+		</div>
+    </div>
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
+
